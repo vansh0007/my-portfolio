@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7ef03532.css",
-    "main.js": "/my-portfolio/static/js/main.2cef672f.js",
+    "main.css": "/my-portfolio/static/css/main.2bb16979.css",
+    "main.js": "/my-portfolio/static/js/main.cb7667d8.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/Background.jpg": "/my-portfolio/static/media/Background.8ddad695876ebc61413a.jpg",
+    "static/media/justin.jpg": "/my-portfolio/static/media/justin.dad7cf3b52e5af669bf1.jpg",
     "static/media/desktop.jpg": "/my-portfolio/static/media/desktop.eb8b077741ce4b915893.jpg",
     "static/media/experience.png": "/my-portfolio/static/media/experience.be9eb80384c00913a664.png",
     "static/media/Project.jpg": "/my-portfolio/static/media/Project.a36bbaa3ea00221c807e.jpg",
+    "static/media/varinder.jpg": "/my-portfolio/static/media/varinder.2dbc326dcbf89f1a4f96.jpg",
     "static/media/Gunvansh.jpg": "/my-portfolio/static/media/Gunvansh.a04b0ae66c58ef6cc852.jpg",
     "static/media/instagram.gif": "/my-portfolio/static/media/instagram.7b45b5c66dd0c38e9200.gif",
     "static/media/react.gif": "/my-portfolio/static/media/react.4b4a9e4ca6986a3409c7.gif",
@@ -26,12 +28,12 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/top-arrow.svg": "/my-portfolio/static/media/top-arrow.e103e7c2b6e8987e653dcff721909f48.svg",
     "static/media/vue.svg": "/my-portfolio/static/media/vue.794e612aa9ab0124da8efae55eef549a.svg",
-    "main.7ef03532.css.map": "/my-portfolio/static/css/main.7ef03532.css.map",
-    "main.2cef672f.js.map": "/my-portfolio/static/js/main.2cef672f.js.map",
+    "main.2bb16979.css.map": "/my-portfolio/static/css/main.2bb16979.css.map",
+    "main.cb7667d8.js.map": "/my-portfolio/static/js/main.cb7667d8.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ef03532.css",
-    "static/js/main.2cef672f.js"
+    "static/css/main.2bb16979.css",
+    "static/js/main.cb7667d8.js"
   ]
 }
