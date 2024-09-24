@@ -1,0 +1,42 @@
+.profile {
+    text-align: center; /* Center content horizontally */
+    padding: 2rem; /* Add some padding */
+    border-radius: 5px; /* Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin: 2rem auto; /* Center the profile section horizontally */
+  }
+  
+  .profile h2,
+  .profile h3 {
+    margin: 0.5rem 0; /* Add some margin between name and job title */
+  }
+  
+  .profile-actions {
+    display: flex; /* Arrange buttons horizontally */
+    justify-content: center; /* Center them within the section */
+    margin: 1rem 0; /* Add some margin below the bio */
+  }
+  
+  .profile-actions a {
+    padding: 0.5rem 1rem; /* Add padding to the buttons */
+    background-color: #333; /* Set button background color */
+    color: #fff; /* Set button text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Add rounded corners to buttons */
+    margin: 0 0.5rem; /* Add some margin between buttons */
+    transition: background-color 0.2s ease-in-out; /* Add a smooth transition on hover */
+  }
+  
+  .profile-actions a:hover {
+    background-color: #007bff; /* Change button color on hover */
+  }
+  
+  .social-links {
+    text-align: center; /* Center the social media links */
+    margin-top: 1rem; /* Add some margin above the links */
+  }
+  
+  .social-links p {
+    margin-bottom: 0.5rem; /* Add some margin below the "Follow me" text */
+  }
+  

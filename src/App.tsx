@@ -1,24 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Home from "./components/home/Home";
+import Portfolio from "./components/Portfolio";
+import ContactPage from "./components/contact/ContactPage";
+import Feedback from "./components/feedback/FeedbackCarousel";
+import Footer from "./components/footer/Footer";
+import "./App.css";
+import Experience from "./components/experience/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  const showMainContent = !["/contact", "/portfolio"].includes(currentPath);
+
+  return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="main-content">
+      {showMainContent && (
+        <>
+          <Home />
+          <About />
+          <Experience />
+          <Projects />
+          <Feedback />
+        </>
+      )}
+      <Routes>
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+      </div>
+      <Footer
+        homeUrl="/"
+        portfolioUrl="/portfolio"
+        contactUrl="/contact"
+        aboutUrl="/about"
+        linkedInUrl="https://www.linkedin.com/in/your-profile"
+        githubUrl="https://github.com/your-username"
+      />
     </div>
   );
 }

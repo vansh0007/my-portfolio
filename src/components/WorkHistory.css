@@ -1,0 +1,37 @@
+.work-history-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+     transition: opacity 0.5s ease, max-height 0.5s ease;
+    background-image: url('/public/assets/experience.png');
+     background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+ 
+  }
+  
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+  .responsibilities {
+    margin-top: 20px;
+  }
+  
+  .responsibilities h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .responsibilities ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  

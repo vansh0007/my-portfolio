@@ -1,0 +1,45 @@
+
+ .project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .ml-4 {
+    margin-left: 1rem;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  

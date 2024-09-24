@@ -1,0 +1,14 @@
+
+.skills-data {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.data-images {
+
+    padding:20px;
+
+}

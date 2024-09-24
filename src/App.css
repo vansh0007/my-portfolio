@@ -1,11 +1,30 @@
 .App {
   text-align: center;
+  background-image: url('/public/assets/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+@keyframes slide {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+.App {
+  animation: slide 20s linear infinite;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +46,9 @@
 .App-link {
   color: #61dafb;
 }
+.main-content {
+  padding-top: 84px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +58,4 @@
     transform: rotate(360deg);
   }
 }
+
